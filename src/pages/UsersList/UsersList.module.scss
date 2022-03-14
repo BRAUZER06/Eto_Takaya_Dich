@@ -1,0 +1,58 @@
+.wrapper {
+  background-color: rgba(197, 195, 195, 0.2);
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding-left: 32px;
+  padding-top: 19px;
+  font-family: "Roboto";
+  font-style: normal;
+  letter-spacing: 0.5px;
+  padding-right: 62px;
+  &_h2 {
+    cursor: pointer;
+    width: 160px;
+    padding-left: 2px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  &_divUser {
+    margin-top: 15px;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+    padding: calc(10px - 7px) 10px 10px 10px;
+    background-color: rgba(243, 243, 243, 0.8);
+
+    border-radius: 8px;
+    &_info {
+      display: flex;
+      flex-direction: column;
+
+      > p {
+        margin-top: 7px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 13px;
+        color: #a3a3a3;
+
+        > span {
+          color: #000000;
+        }
+      }
+    }
+    &_btnInfo {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      &_buttonInfoOnUser {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #4b51ef;
+        cursor: pointer;
+      }
+    }
+  }
+}
