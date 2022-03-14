@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Eto_Takaya_Dich/static/css/main.a15f3172.css",
+    "main.js": "/Eto_Takaya_Dich/static/js/main.60dca138.js",
+    "index.html": "/Eto_Takaya_Dich/index.html",
+    "main.a15f3172.css.map": "/Eto_Takaya_Dich/static/css/main.a15f3172.css.map",
+    "main.60dca138.js.map": "/Eto_Takaya_Dich/static/js/main.60dca138.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a15f3172.css",
+    "static/js/main.60dca138.js"
+  ]
+}
